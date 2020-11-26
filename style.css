@@ -1,0 +1,106 @@
+
+
+h1 {
+  color: cadetblue;
+}
+p {
+  color: #9c8f8f;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: cadetblue;
+  font-size: 30px;
+}
+
+a {
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a.boton {
+  padding: 20px;
+  font-size: 20px;
+  background-color: cadetblue;
+}
+
+a:hover {
+  color: red;
+}
+
+i:hover {
+  color: black;
+}
+
+i {
+  color: #777777;
+  font-size: 50px;
+}
+
+li {
+  margin-top: 30px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Goldman';
+  background-color: #eeeeee;
+}
+
+div.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.card {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  background-color: white;
+  border-radius: 7px;
+  padding: 45px;
+  margin-top: 25px;
+}
+
+
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div.container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div.container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div.container {
+    width: 300px;
+  }
+
+  a.boton {
+    font-size: 15px;
+  }
+}
